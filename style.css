@@ -1,0 +1,434 @@
+/* header, logo and navbar*/
+.header{
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0px;
+    top: 0px;
+    background: #F4F7F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(images/vectorbg.png);
+    background-size: 150vh;
+    background-repeat:no-repeat;
+    background-position-x: 60vh;
+    background-position-y: 30vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerNav{
+    background: rgb(185, 161, 199);
+    width: 100%;
+}
+
+.container-fluid.largebar{
+    background:#f4f7f5;
+}
+
+.navbar{
+    position: relative; 
+    display: flex;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;  
+    background: #F4F7F5;
+    height: 20%;
+}
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .9em;
+    line-height: 1.1em;
+    color: #272D4E;
+}
+
+.logo{
+    width: 9.375em;
+    height: 50%;
+}
+
+.rectangle {  
+    display: flex;
+    position: relative;
+    height: 55vh;
+    left: 0px;
+    background: #7541C0;
+    background-image: url("images/greekBg.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+} 
+
+.block1{
+    
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%x;
+    height: 362px;  
+}
+
+.text-title{
+    display: flex;
+    align-items : center ;
+    justify-content: left;
+    align-content: center;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding-top: 11%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.7rem;
+    line-height: 3.6rem;
+    color: #F2F2F2;    
+}
+
+/*our-section*/
+
+.container-fluid.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(39, 45, 78, 0.5);
+    margin-top: -12%;
+}
+
+.about-title {
+    padding-top: 9%;
+}
+
+.midle-title {
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.inside-box{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 30%;
+    align-items: center;
+    justify-content :space-between;
+    background-color: #Ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(117, 65, 192, 0.58);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(117, 65, 192, 0.58);
+    box-shadow: 0px 1px 3px 0px rgba(117, 65, 192, 0.58);
+    margin: 5%;
+    margin-top: auto;
+    width: 50%;
+    margin-top: 10%;
+
+}
+
+.logo-inside {
+    padding-left: 8%;
+}
+
+.logo2 {
+   width: 8rem;
+   padding-left: 3%; 
+}
+
+.text2 {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    margin-top: 2%;
+    padding-right: 3%;
+}
+
+/*our-team*/
+.container-fluid.team-box {
+    height: 18rem;
+    display: flex;
+    align-items: center;
+}
+
+.container.our-people {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 75%;
+}
+
+.member1 {
+    background-image: url(images/people1.png);
+    display: flex;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:top;
+    background-size: 100%;
+    height:100%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.membP {
+    display: flex;
+    justify-content: center;
+    font-size: .75rem;
+    font-family: sans-serif;
+    margin-top: 65%;
+    font-weight: 600;
+    width: 100%;
+    height: 30%;
+}
+
+.member2 {
+    background-image: url(images/people2.png);
+    display: flex;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:top;
+    background-size: 100%;
+    height:100%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.member3 {
+    background-image: url(images/people3.png);
+    display: flex;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:top;
+    background-size: 100%;
+    height:100%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Our Areas */
+.container-fluid.areas-box {
+    height: 15rem;
+    width: 100%;
+    background-color: #666666;
+}
+
+container.our-areas {
+    height: 50%;
+    background-color: #7541C0;
+    width: 100%;
+}
+
+.areas {
+    width: 50%;
+}   
+
+/*Address & Form*/
+.container-fluid.bigfoot {
+    height: 20rem;
+    margin-top: 6%;
+    background-color: #7541C0;
+    display: flex;                              
+    align-items: center;
+}
+
+.container.prefoot {
+    height: 100%;
+    width: 100rem;
+    display: flex;
+    align-items: center;
+    background: url(images/adbg.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position:relative;
+    background-position-x: right;
+}
+
+.address-form {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    width: 20%;
+    height: 85%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.info p {
+    color: #7541C0;
+    font-family: Roboto;
+}
+
+    /* Form */
+.message {
+    position:relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    height: 85%;
+    width: 20%;
+    margin-left: 4%;
+    background: #ffffff;
+}
+
+.lname {
+    align-self: flex-start;
+}
+
+#nome {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 65%;
+    height: 10%;
+    margin: 0;
+}
+
+.tel {
+    align-self: flex-start;
+}
+
+#tel {
+    padding-left: 50%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 65%;
+    height: 10%;   
+}
+
+.email {
+    padding-left: 5%;
+    align-self: flex-start;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 65%;
+    height: 10%
+}
+
+.larea {
+    align-self: flex-start;  
+}
+
+#txtarea {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 65%;
+    height: 10%;
+    line-height:.7rem;
+}
+
+/* Address */
+    .address-text {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #Ffffff;   
+}
+
+/*footer*/
+.secfooter {
+    margin-top: 1%;
+}
+
+.above-footer {
+    width: 200vh;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-medias {
+    position: relative;
+    width: 25%;
+    height: 10%;
+    padding-top: 7%;
+    
+}
+
+.base-buttons {
+    margin-right: 9%;
+}
+
+.footer-buttom {
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    width: 20%; 
+    font-weight: 800;
+    margin:0 .8rem .8rem 0;
+
+}
+
+.footerp {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cnpj {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #272D4E;
+    margin-left: 32%;
+}
+
+.bigu {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+    height: 10%;
+    margin-left: 10%;
+    color: #272D4E;
+}
